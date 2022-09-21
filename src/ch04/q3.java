@@ -10,6 +10,7 @@ public class q3 {
 		for (int i = 1; i <=100; i++) {
 			if(i %3 == 0) {
 				sum += i ;
+				System.out.println("3의 배수 : "+ i);
 			}
 		}
 		System.out.println(sum);
