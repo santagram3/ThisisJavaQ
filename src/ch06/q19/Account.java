@@ -10,18 +10,25 @@ public class Account {
 	public int getBalance() {
 		return balance;
 	}
+//
+//	public void setBalance(int money) {
+//		if (balance < MIN_BALANCE) {
+//			return; 
+//		}else if (balance > MAX_BALANCE) {
+//			return ;
+//		} else {
+//			this.balance = money ;
+//		}
+//		
+//	} 
+	
 
 	public void setBalance(int money) {
-		if (balance < MIN_BALANCE) {
+		if (balance >= MIN_BALANCE && balance <= MAX_BALANCE) {
 			return; 
-		}else if (balance > MAX_BALANCE) {
-			return ;
-		} else {
-			this.balance = money ;
 		}
 		
 	} 
-	
 	
 
 }

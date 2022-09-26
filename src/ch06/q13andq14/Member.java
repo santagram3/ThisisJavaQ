@@ -8,6 +8,7 @@ public class Member {
 	String password ; // 비밀번호 
 	int age ; // 나이 ! 
 	
+	
 	// q14 
 	// 생성자 name 과 id 를 대입하는 생성자! 
 	
